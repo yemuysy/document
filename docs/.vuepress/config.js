@@ -37,13 +37,7 @@ module.exports = {
         sidebar: {
             '/about/': [
               '',     /* /foo/ */
-              'hello',  /* /foo/one.html */
             ],
-      
-            '/about2/': [
-              '',      /* /about2/ */
-            ],
-      
             // fallback
             '/': [
               '',
