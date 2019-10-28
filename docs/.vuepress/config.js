@@ -9,7 +9,7 @@ module.exports = {
     head: [
       ['link', { rel:'icon', href: '/favicon.png' } ]
     ],
-    base: '/documents/',
+    // base: '/documents/',
     themeConfig: {
         lastUpdated: '上次更新时间',
         repo: 'yemuysy/documents',
