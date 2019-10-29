@@ -15,7 +15,7 @@ module.exports = {
         repo: 'yemuysy/documents',
         repoLabel: 'GitHub',
         editLinks: true,
-        editLinkText: 'Edit this page',
+        editLinkText: '编辑文档',
         // 以下为可选的编辑链接选项
         // 假如你的文档仓库和项目本身不在一个仓库：
         docsRepo: 'yemuysy/documents',
@@ -24,14 +24,27 @@ module.exports = {
         // 假如文档放在一个特定的分支下：
         docsBranch: 'master',
         nav: [
-          { text: 'Home', link: '/' },
-          { text: '功课学习', 
+          { text: '基础功课', 
             items: [
                 { text: '英语', link: '/basic_homework/english/' },
                 { text: '高数', link: '/basic_homework/mathematics/' }
             ] 
           },
-          { text: '数据结构和算法', link: '/data_structures_and_algorithms/'},
+          { text: '必修课',
+            items: [
+              { text: '数据结构与算法', 
+                items: [
+                  { text: '数据结构与算法', link: '/compulsory_course/data_structures_and_algorithms/' }
+                ]
+              },
+              { text: '设计模式', 
+                items: [
+                  { text: '单例模式', link: '/compulsory_course/design_patterns/Singleton.md' },
+                  { text: '工厂模式', link: '/compulsory_course/design_patterns/factory.md' }
+                ]
+              }
+            ]
+          },
           { text: '在线工具', 
             items: [
                 { text: '谷歌插件', link: 'https://www.crx4chrome.com/' }
