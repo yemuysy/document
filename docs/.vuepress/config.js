@@ -25,24 +25,22 @@ module.exports = {
         docsBranch: 'master',
         nav: [
           { text: 'Home', link: '/' },
-          { text: '插本', link: '/' },
+          { text: '功课学习', 
+            items: [
+                { text: '英语', link: '/basic_homework/english/' },
+                { text: '高数', link: '/basic_homework/mathematics/' }
+            ] 
+          },
+          { text: '数据结构和算法', link: '/data_structures_and_algorithms/'},
           { text: '在线工具', 
             items: [
-                { text: '展示1', link: 'https:baidu.com' },
-                { text: '展示2', link: 'https:baidu.com' }
+                { text: '谷歌插件', link: 'https://www.crx4chrome.com/' }
             ] 
-          }
+          },
+          { text: '关于我', link: '/about/'}
         ],
         displayAllHeaders: true, // 默认值：false 显示所有页面的标题链接
-        sidebar: {
-            '/about/': [
-              '',     /* /foo/ */
-            ],
-            // fallback
-            '/': [
-              '',
-            ]
-        },
+        sidebar: 'auto',
         sidebarDepth: 2
     }
 }
