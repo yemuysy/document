@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /avatar.jpg
-heroText: 码农-zxh
+heroText: 夜幕
 tagline: 好好学习，天天向上
 # actionText: 快速上手 →
 # actionLink: /zh/guide/
